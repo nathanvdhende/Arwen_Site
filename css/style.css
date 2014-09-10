@@ -83,19 +83,23 @@ body a:visited{ color:#48433d;}
 	text-align:center;
 	border-top: 1px solid #e1e1e1;
 	border-bottom: 1px solid #e1e1e1;	
-	padding:2px;
+	padding:4px;
 	vertical-align:middle;
 	}
 
-.header .headernav ul li a{
+.header .headernav a{
 	display:block;
 	text-decoration:none;
 	}
 	
-.header .headernav ul li a:hover{
-	color:#48433d;
-	border-bottom:thick;
-	border-top:thick;
+.header .headernav a:hover{
+	color:#3399cc;
+	font-weight:bold;
+}
+
+.header .headernav li:hover{
+	border-bottom:2px solid #48433d;
+	border-top:2px solid #48433d;
 }
 
 
