@@ -6,7 +6,7 @@
 body{
     background-color: #faf9f3;
     font-family: 'Open Sans', sans-serif;
-    font-size:12px;
+    font-size:14px;
     color:#999999;
     border-color:#d7d7d7;
 
@@ -283,11 +283,13 @@ body a:visited{ color:#48433d;}
 }
 
 .table-arrangementen{
+    font-size: 14px;
 
 }
 
 .table-arrangementen td{
     padding-bottom:10px;
+    padding-left: 5px;
 }
 
 
@@ -295,6 +297,7 @@ body a:visited{ color:#48433d;}
     color:#545354;
     font-size:14px;
     font-weight:bold;
+    border-bottom: solid #3399cc thin;
 
 }
 
@@ -305,6 +308,124 @@ body a:visited{ color:#48433d;}
 .table-arrangementen .column3{
     color:#545354;
 }
+
+/**********************PAGE BEAUTY & MASSAGE *****************************/
+
+.submenu{
+
+}
+
+.submenu{
+    margin-top:15px;
+    width:100%;
+    font-size:14px;
+
+}
+
+.submenu ul{
+    padding:0;
+    margin:0;
+    overflow:auto;
+}
+
+.submenu li{
+    list-style-type:none;
+    display:table-cell;
+    width:117px;
+    text-align:center;
+    vertical-align:middle;
+    padding-right: 5px;
+}
+
+.submenu ul li a{
+    display:block;
+    text-decoration:none;
+    color: #faf9f3;
+    background-color: #3399cc;
+    width: 120px;
+    height: 40px;
+}
+
+.submenu a:hover{
+    color:#faf9f3;
+    background-color: #545354;
+    font-weight:bold;
+}
+
+.submenu .active{
+    background-color: #545354;
+    color: #faf9f3;
+
+}
+
+.content .content-foto{
+    float: left;
+
+}
+
+.content-foto{
+    display: block;
+    float: none;
+    margin-right: 15px;
+}
+
+
+/**********************ALGEMENE BEAUTY SUBPAGES OPMAAK *****************************/
+
+
+.promotietekst1{
+    color: #48433d;
+}
+
+.content .table{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.content .table table tr td{
+    padding-bottom: 15px;
+    padding-right: 10px;
+    border-bottom: solid 1px #999999;
+}
+
+.content .table table tr .column1{
+    color: #48433d;
+}
+
+.content .table table tr .column3{
+    border-bottom: solid 1px #999999;
+}
+
+/**********************PAGE MANICURE *****************************/
+
+/*BRIAN HEEFT DIT NOG NIET AF!!!!!!!*/
+
+
+/*ALSOOK PEDICURE/ONTHARING/ANDERE*/
+
+
+
+
+
+
+
+
+/**********************PAGE CADEAUBON *****************************/
+.content .content-tekst{
+    display: inline-block;
+}
+
+.content #cadeaubonfoto{
+    margin-top: 15px;
+    display: inline-block;
+    margin-left:25%
+}
+
+.main .content div ul li{
+    margin-bottom: 10px;
+}
+
+/***************************************FOOTER******************************************************/
 
 .footer{
     width:960px;
