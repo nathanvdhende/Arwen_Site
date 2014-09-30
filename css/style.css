@@ -17,6 +17,10 @@ body a:hover { color:#3399cc; }
 body a:active { color:#48433d; }
 body a:visited{ color:#48433d;}
 
+    table{
+        border-collapse: collapse;
+    }
+
 /* WRAP */
 .wrap{
     margin-left:auto;
@@ -284,7 +288,7 @@ body a:visited{ color:#48433d;}
 
 .table-arrangementen{
     font-size: 14px;
-
+    border-collapse: collapse;
 }
 
 .table-arrangementen td{
@@ -398,13 +402,10 @@ body a:visited{ color:#48433d;}
 
 /**********************PAGE MANICURE *****************************/
 
-/*BRIAN HEEFT DIT NOG NIET AF!!!!!!!*/
+.gelaatontharing{
+    font-size: 14px;
 
-
-/*ALSOOK PEDICURE/ONTHARING/ANDERE*/
-
-
-
+}
 
 
 
