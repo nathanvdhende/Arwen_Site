@@ -84,8 +84,11 @@ body a:visited{ color:#48433d;}
 .header .headernav li{
     list-style-type:none;
     display:table-cell;
+
     width:117px;
+
     text-align:center;
+
     border-top: 2px solid #e1e1e1;
     border-bottom: 2px solid #e1e1e1;
 
@@ -100,11 +103,23 @@ body a:visited{ color:#48433d;}
 }
 
 .header .headernav a{
-    display:inline;
-    text-decoration:none;
+    float: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     min-height: 44px;
+    /*display:inline;*/
+    text-decoration:none;
+
+    text-align: center;
     vertical-align:middle;
+
+    /*tekst centreert niet in menu omdat
+    1.Link helemaal clickable moet zijn binnenin Li object --> moet block zijn
+    2.het menuitem 2 lijnen heeft --> line height werkt niet
+    http://bytes.com/topic/html-css/answers/839462-vertical-align-block-link
+    */
 
 
 }
