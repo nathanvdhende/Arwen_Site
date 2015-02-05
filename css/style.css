@@ -13,15 +13,21 @@ body{
     margin: 0;
     margin-top: 20px;
 }
+body p{
+    margin: initial;
+
+}
 
 body a:link {color:#48433d; text-decoration:underline;}
 body a:hover { color:#3399cc; }
 body a:active { color:#48433d; }
 body a:visited{ color:#48433d;}
 
-   /*table{
-        border-collapse: collapse;
-    }*/
+table{
+    position: inherit;
+    float: none;
+    margin-bottom: 20px;
+}
 
 /* WRAP */
 .wrap{
@@ -321,32 +327,6 @@ body a:visited{ color:#48433d;}
     margin-bottom:5px;
 }
 
-.table-arrangementen{
-    font-size: 14px;
-    border-collapse: collapse;
-}
-
-.table-arrangementen td{
-    padding-bottom:10px;
-    padding-left: 5px;
-}
-
-
-.table-arrangementen .column1{
-    color:#545354;
-    font-size:14px;
-    font-weight:bold;
-    border-bottom: solid #3399cc thin;
-
-}
-
-.table-arrangementen .column2{
-
-}
-
-.table-arrangementen .column3{
-    color:#545354;
-}
 
 /**********************PAGE BEAUTY & MASSAGE *****************************/
 
@@ -437,7 +417,7 @@ body a:visited{ color:#48433d;}
     font-size: 14px;
 }
 
-.content .table table tr td{
+/*.content .table table tr td{
     padding-bottom: 15px;
     padding-right: 10px;
     border-bottom: solid 1px #999999;
@@ -449,7 +429,7 @@ body a:visited{ color:#48433d;}
 
 .content .table table tr .column3{
     border-bottom: solid 1px #999999;
-}
+}*/
 
 /**********************PAGE PEDICURE *****************************/
 
@@ -526,7 +506,7 @@ body a:visited{ color:#48433d;}
 }
 
 .footer .contactinfo{
-    margin-top:15px;
+    /*margin-top:15px;*/
     font-size:14px;
     border-top: 1px solid #e1e1e1;
     border-bottom: 1px solid #e1e1e1;
@@ -537,6 +517,9 @@ body a:visited{ color:#48433d;}
     margin: 0 auto;
     display:table;
     overflow:hidden;
+
+    padding-top: 15px;
+
 }
 
 .footer .contactinfo li{
@@ -558,7 +541,6 @@ body a:visited{ color:#48433d;}
     color:#999999;
     display:block;
     text-decoration:underline;
-    margin-top:15px;
 }
 
 .footer .contactinfo a:hover{

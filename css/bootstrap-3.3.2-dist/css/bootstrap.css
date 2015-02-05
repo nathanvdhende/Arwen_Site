@@ -18,7 +18,6 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 hgroup,
 main,
@@ -1161,7 +1160,7 @@ hr {
   overflow: visible;
   clip: auto;
 }
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -1275,10 +1274,10 @@ h5,
 h6,
 .h6 {
   font-size: 12px;
-}
-p {
+}*/
+/*p {
   margin: 0 0 10px;
-}
+}*/
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
@@ -1392,17 +1391,17 @@ a.bg-danger:hover {
   margin: 40px 0 20px;
   border-bottom: 1px solid #eee;
 }
-ul,
+/*ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
-}
-ul ul,
+}*/
+/*ul ul,
 ol ul,
 ul ol,
 ol ol {
   margin-bottom: 0;
-}
+}*/
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -2243,7 +2242,7 @@ th {
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 .table > thead > tr > th,
 .table > tbody > tr > th,
