@@ -72,7 +72,7 @@ body a:visited{ color:#48433d;}
 .header .headernav{
     margin-top:15px;
     width:100%;
-    font-size:14px;
+    font-size:16px;
 }
 
 .header .headernav ul{
@@ -86,15 +86,27 @@ body a:visited{ color:#48433d;}
     display:table-cell;
     width:117px;
     text-align:center;
-    border-top: 1px solid #e1e1e1;
-    border-bottom: 1px solid #e1e1e1;
-    padding:4px;
+    border-top: 2px solid #e1e1e1;
+    border-bottom: 2px solid #e1e1e1;
+
+    padding:0px;
+
+
     vertical-align:middle;
+
+
+
+
 }
 
 .header .headernav a{
-    display:block;
+    display:inline;
     text-decoration:none;
+
+    min-height: 44px;
+    vertical-align:middle;
+
+
 }
 
 .header .headernav a:hover{
