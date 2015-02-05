@@ -477,6 +477,15 @@ body a:visited{ color:#48433d;}
     width: 5%;
 }
 
+.map{
+    float:none;
+    display: block;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
 /***************************************FOOTER******************************************************/
 
 .footer{
