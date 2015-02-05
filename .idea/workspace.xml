@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c69f1b9f-da00-4c25-b7a8-d2d4da23384a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/andere.html" afterPath="$PROJECT_DIR$/andere.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beauty.html" afterPath="$PROJECT_DIR$/beauty.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cadeaubon.html" afterPath="$PROJECT_DIR$/cadeaubon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fotos.html" afterPath="$PROJECT_DIR$/fotos.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gelaat.html" afterPath="$PROJECT_DIR$/gelaat.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/huisregels.html" afterPath="$PROJECT_DIR$/huisregels.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manicure.html" afterPath="$PROJECT_DIR$/manicure.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/massage.html" afterPath="$PROJECT_DIR$/massage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ontharing.html" afterPath="$PROJECT_DIR$/ontharing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pedicure.html" afterPath="$PROJECT_DIR$/pedicure.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wellness.html" afterPath="$PROJECT_DIR$/wellness.html" />
     </list>
     <ignored path="Arwen_Site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -303,7 +292,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1036" extended-state="6" />
+    <frame x="-4" y="-4" width="1928" height="1036" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
