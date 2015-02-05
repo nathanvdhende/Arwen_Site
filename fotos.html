@@ -5,6 +5,7 @@
 <title>Arwen Beauty &amp; Wellness Lounge - Foto's</title>
 <link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+<link rel="stylesheet" href="css/lightbox.css">
     <meta name="author" content="Arwen Beauty and Wellness Lounge | Nathan Van den Hende en Brian Albrecht">
     <meta name="copyright" content="Arwen Beauty and Wellness Lounge. Alle rechten voorbehouden.">
     <meta name="viewport" content="width=device-width">
@@ -55,14 +56,15 @@
     <div class="main">
     		<!-- Start foto's -->
             <div class="fotos">
+
                 <div class="wellness-fotos">
                     <h2>Wellness</h2>
-                    <img src="images/logo.png" alt="wellness">
-                    <img src="images/pic02.jpg" alt="wellness">
+                    <a href="images/logo.png" data-lightbox="logo" data-title="Arwen logo"><img src="images/logo.png" alt="wellness"></a>
+                    <a href="images/pic02.jpg" data-lightbox="logo" data-title="Blauwtje"><img src="images/pic02.jpg" alt="wellness"></a>
                 </div>
                 <div class="kleedruimte-fotos">
                     <h2>Kleedruimte</h2>
-                    <img src="images/pic01.jpg" alt="kleedruimte">
+                    <a href="images/pic01.jpg" data-lightbox="logo" data-title="Groentje"><img src="images/pic01.jpg" alt="kleedruimte"></a>
                 </div>
             <!-- End foto's -->    
 			</div>
@@ -87,6 +89,7 @@
 <!--End Footer-->
 </div>
 
-
+<script src="scripts/jquery-1.11.0.min.js"></script>
+<script src="scripts/lightbox.min.js"></script>
 </body>
 </html>
