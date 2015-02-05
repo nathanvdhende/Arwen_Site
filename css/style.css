@@ -17,7 +17,7 @@ body a:hover { color:#3399cc; }
 body a:active { color:#48433d; }
 body a:visited{ color:#48433d;}
 
-   /* table{
+   /*table{
         border-collapse: collapse;
     }*/
 
@@ -402,7 +402,7 @@ body a:visited{ color:#48433d;}
 }
 
 .content .table{
-    margin-left: 20px;
+    
     font-size: 14px;
 }
 
