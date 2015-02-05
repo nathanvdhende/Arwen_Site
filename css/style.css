@@ -121,7 +121,7 @@ body a:visited{ color:#48433d;}
     position: relative;
     padding-top: 320px;
 
-    margin: 80px auto;
+    margin: 40px auto 80px auto;
 
 
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
@@ -253,6 +253,10 @@ body a:visited{ color:#48433d;}
     box-shadow: 3px 3px 3px #888888;
 }
 
+.homecontent #homecontentbeautylink:hover, #homecontentwellnesslink:hover{
+    background-color: #545354;
+}
+
 .homecontent a:link {color:#ffffff; text-decoration:none;}
 .homecontent a:hover { color:#ffffff; }
 .homecontent a:active { color:#ffffff; }
@@ -329,16 +333,25 @@ body a:visited{ color:#48433d;}
 .submenu ul{
     padding:0;
     margin:0;
-    overflow:auto;
+    overflow:hidden;
+
 }
 
 .submenu li{
-    list-style-type:none;
+
+
     display:table-cell;
-    width:117px;
+
     text-align:center;
     vertical-align:middle;
     padding-right: 5px;
+
+    width: 120px;
+
+    list-style-type:none;
+    list-style: none;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
 }
 
 .submenu ul li a{
@@ -346,8 +359,14 @@ body a:visited{ color:#48433d;}
     text-decoration:none;
     color: #faf9f3;
     background-color: #3399cc;
-    width: 120px;
+
+    text-align: center;
+
     height: 40px;
+
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
 }
 
 .submenu a:hover{
@@ -371,6 +390,7 @@ body a:visited{ color:#48433d;}
     display: block;
     float: none;
     margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 
@@ -426,10 +446,26 @@ body a:visited{ color:#48433d;}
     display: inline-block;
 }
 
-.content #cadeaubonfoto{
+#cadeaubonfoto{
+
+
+}
+
+#cadeaubonfoto img{
+
+    float:none;
+
+    display: block;
+
+    /*width=100%;*/
+
     margin-top: 15px;
-    display: inline-block;
-    margin-left:25;
+
+
+    margin-left:auto;
+    margin-right: auto;
+
+
 }
 
 .main .content div ul li{
