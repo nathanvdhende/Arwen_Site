@@ -1,10 +1,171 @@
-﻿body {
-    font-size: 8px !important;
+﻿@charset "utf-8";
+html, body {
+
+    height: 100%;
+
+}
+body{
+    background-color: #faf9f3;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    /*color:#999999;*/
+    color:#545354;
+    border-color:#d7d7d7;
+    margin: 0;
+    margin-top: 20px;
+}
+/* **********************HEADER********************** */
+.header .contactinfo{
+    visibility: hidden;
+    margin-left: -999999px;
+}
+
+.header .logo{
+    max-width: 100%;
+    text-align: center;
+}
+
+.header .headernav{
+    visibility: hidden;
+}
+/* **********************SLIDER********************** */
+.slider{
+    visibility: hidden;
+    margin-left: -999999px;
+    margin-top: -520px;
+}
+/* **********************HOME CONTENT********************** */
+.homecontent{
+    background-color:#e9e4e1;
+    margin-bottom:50px;
+    height:200px;
+
+    position:relative;
+    top:20px;
+}
+
+.homecontent img{
+    float: left;
+    padding-top:30px;
+    padding-left:20px;
+    max-width: 40%;
+}
+
+.homecontent h2{
+    color:#545354;
+    font-size:10px;
+    font-weight:bolder;
+    float:left;
+    margin-top:25px;
+    margin-left:50px;
+}
+
+.homecontent h3{
+    color:#3399cc;
+    font-size:12px;
+    font-weight:lighter;
+    margin-left:50px;
+    float:left;
+    margin-top:-5px;
+}
+
+.homecontent p{
+    color:#858382;
+    font-size:8px;
+    float:left;
+    margin-top:0px;
+    margin-left:50px;
+    width:100px;
+}
+
+.homecontent #homecontentwellnesslink{
+    background-color:#3399cc;
+    color:#ffffff;
+    font-size:14px;
+    font-weight: bold;
+    padding-top:5px;
+    padding-bottom:5px;
+
+    width:130px;
+
+    padding-left:30px;
+    padding-right:30px;
+
+    position:relative;
+    float:left;
+    top:60px;
+
+
+    box-shadow: 3px 3px 3px #888888;
 
 
 }
 
-.logo{
-    margin-left:10000px;
+.homecontent #homecontentbeautylink{
+    background-color:#3399cc;
+    color:#ffffff;
+    font-size:14px;
+    font-weight: bold;
+    padding-top:5px;
+    padding-bottom:5px;
+
+    width:130px;
+
+    padding-left:30px;
+    padding-right:30px;
+
+    position:relative;
+    float:left;
+    top:70px;
+
+
+    box-shadow: 3px 3px 3px #888888;
+}
+/* **********************FOOTER********************** */
+.footer{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
+.footer .contactinfo{
+    /*margin-top:15px;*/
+    font-size:14px;
+    border-top: 1px solid #e1e1e1;
+}
+
+.footer .contactinfo ul{
+    padding:0px;
+    margin: 0 auto;
+    display:table;
+    overflow:hidden;
+
+    padding-top: 15px;
+
+}
+
+.footer .contactinfo ul li:nth-child(3){
+    margin-left: 75px;
+}
+
+.footer .contactinfo li{
+    list-style-type:none;
+    display:table-cell;
+    font-size: 12px;
+    text-align:center;
+    padding:4px;
+    vertical-align:middle;
+
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:20px;
+    padding-right:20px;
+
+    float:left;
+}
+
+.footer .contactinfo a{
+    color:#999999;
+    display:block;
+    text-decoration:underline;
+}
